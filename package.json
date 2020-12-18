@@ -1,0 +1,35 @@
+{
+  "name": "beacon-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "sahitya"
+  ],
+  "author": "sahitya",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/core": "^2.4.5",
+    "asyncawait": "^3.0.0",
+    "bluetooth-hci-socket": "^0.5.1",
+    "capacitor-ibeacon": "^0.1.0",
+    "dateformat": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.15",
+    "mosca": "^2.8.3",
+    "noble": "^1.9.1",
+    "node-beacon-scanner": "^0.2.2",
+    "node-gyp": "^7.1.2",
+    "node-pre-gyp": "^0.17.0",
+    "nodemon": "^2.0.6",
+    "rebuild": "^0.1.2",
+    "sqlite": "^3.0.6"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^2.3.4"
+  }
+}
