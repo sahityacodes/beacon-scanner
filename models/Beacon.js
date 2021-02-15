@@ -1,18 +1,24 @@
 const mongoose = require('mongoose');
 
-const Beacon= mongoose.Schema({
+const Beacon = mongoose.Schema({
+    room: {
+        type: String,
+    },
+    floor: {
+        type: String,
+    },
     beaconId: {
         type: String,
     },
-    status : {
+    status: {
         type: String,
     },
     inTime: {
-        type: String
-        },
-     outTime: {
-        type: String
-        },
-    });
+        type: Date
+    },
+    outTime: {
+        type: Date
+    },
+});
 
-module.exports = mongoose.model('Beacon',Beacon);
+module.exports = mongoose.model('Beacon', Beacon);
