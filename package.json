@@ -20,12 +20,12 @@
     "dateformat": "^4.3.1",
     "dotenv": "^8.2.0",
     "mongoose": "^5.10.15",
-    "mosca": "^2.8.3",
     "noble": "^1.9.1",
     "node-beacon-scanner": "^0.2.2",
     "node-gyp": "^7.1.2",
     "nodemon": "^2.0.6",
-    "rebuild": "^0.1.2"
+    "rebuild": "^0.1.2",
+    "mqtt": "^4.2.5"
   },
   "devDependencies": {
     "electron-rebuild": "^2.3.4"
